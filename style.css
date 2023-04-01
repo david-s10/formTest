@@ -1,0 +1,17 @@
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss ***!
+  \********************************************************************************************************/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
