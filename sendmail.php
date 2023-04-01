@@ -11,9 +11,9 @@ $mail = new PHPMailer(true);
 $mail -> CharSet = 'UTF-8';
 $mail -> IsHTML(true);
 
-$mail -> setFrom('dav@dev.com', 'david po jizni')
+$mail -> setFrom('bayny24@gmail.com', 'david po jizni')
 
-$mail -> addAddress('dav@dev.com');
+$mail -> addAddress('bayny24@gmail.com');
 
 $mail -> Subject = 'privet eto ya'
 
